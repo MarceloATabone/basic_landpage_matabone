@@ -1,6 +1,117 @@
-html, 
+html,
 body {
     height: 100%;
-    background-color: white;
-    overflow-x: hidden;
+    background-color: black;
+}
+
+
+
+/* header start*/
+
+.header {
+    background-color: none;
+    border-bottom: 2px solid white;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.header .site-title{
+    padding: 20px;
+}
+
+    .header .site-title h1 {
+        font: normal normal bold 42px/45px sans-serif;
+        color: white;
+    }
+
+/* header end  */
+/*-------------*/
+/* main start*/
+
+main {
+    background-color: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.card {
+    background: none;
+}
+    .card h1 {
+        font: normal normal bold 32px/35px sans-serif;
+        text-align: center;
+        color: white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card video {
+        max-width: 1000px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card p {
+        font: normal normal bold 22px/25px sans-serif;
+        text-align: center;
+        color: white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card button {
+        background: green 0% 0% no-repeat padding-box;
+        border: 0px;
+        border-radius: 36px;
+        font: normal normal bold 24px/26px sans-serif;
+        color: black;
+        min-height: 70px;
+        max-width: 40%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card button:hover{
+        border: 1px solid white;
+        font: normal normal bold 26px/27px sans-serif;
+        color: white;
+    }
+/* main end  */
+/*-------------*/
+/* footer start*/
+
+footer {
+    background-color: antiquewhite;
+}
+
+/* footer end  */
+/*-------------*/
+
+/* FOR PHONE  */
+
+@media only screen and (max-width: 800px) {
+
+
+    .card h1 {
+        font-size: 22px;
+    }
+
+    .card video {
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+    .card button {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        max-width: 80%;
+        min-height: 50px;
+        font-size: 14px;
+    }
 }
