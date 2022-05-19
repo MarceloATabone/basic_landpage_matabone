@@ -1,6 +1,6 @@
 <?php
     /**
-    * Template Name: Home LandPage
+    * Template Name: Home LandPage 2
     */
 ?>
 
